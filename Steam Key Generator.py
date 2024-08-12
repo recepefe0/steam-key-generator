@@ -12,4 +12,4 @@ def uret():
   for x in range(g):
     print(random.choice(wordlist) +  random.choice(wordlist) +  random.choice(wordlist) +  random.choice(wordlist) +  random.choice(wordlist) + "-" + random.choice(wordlist) +  random.choice(wordlist) +  random.choice(wordlist) +  random.choice(wordlist) +  random.choice(wordlist) + "-" + random.choice(wordlist) +  random.choice(wordlist) +  random.choice(wordlist) +  random.choice(wordlist) +  random.choice(wordlist),file = dosya, flush = True)
 
-uret()
+uret(1)
